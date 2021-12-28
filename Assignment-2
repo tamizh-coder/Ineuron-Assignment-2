@@ -1,0 +1,24 @@
+# python program for create half dimond pattern.
+
+x=5
+for i in range(x):
+  for j in range(i+1): 
+    print("*",end = " ")
+  print()
+  print()
+
+for i in range(x):
+  for j in range(x-i-1):
+    print("*", end=" ")
+  print()
+  print()
+  
+  
+  
+  
+  
+  # python program for get a word from user and reverse it.
+  
+  x=input("Enter Your String : ")
+y=x[::-1]
+print(y)
